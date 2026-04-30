@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arputha Joshwa B  - Aspiring AI & Data Science Engineer | Backend Developer | Problem Solver | Devops">
+  <title>Arputha Joshwa B |  AI & Data Science Engineer | Backend Developer | Problem Solver | Devops </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Canvas Cursor -->
+  <canvas id="canvas" class="cursor-canvas"></canvas>
+
+  <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">AJ</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#" class="resume-btn" id="downloadResume">
+        <i class="fas fa-download"></i> Resume
+      </a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="reveal-text">Hi, I'm</span>
+          <span class="hero-name reveal-text delay-1">Arputha Joshwa B </span>
+        </h1>
+        <p class="hero-subtitle reveal-text delay-2">AI & Data Science Engineer | Backend Developer | Problem Solver | Devops</p>
+        <p class="hero-description reveal-text delay-3">Crafting scalable backend architectures and intelligent solutions by integrating AI, DevOps, Full Stack development, and advanced algorithms.</p>
+        <div class="hero-cta reveal-text delay-4">
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn-secondary">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-social reveal-text delay-5">
+        <a href="https://github.com/Joshwa37" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/arputhajoshwa" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://leetcode.com/u/arputhajoshwa/" target="_blank" class="social-link"><i class="fas fa-code"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-content">
+        <div class="about-text fade-in">
+          <p class="about-intro">I am an AI & Data Science graduate with a strong focus on backend development, DevOps, and full stack technologies. I have solved 200+ problems on LeetCode and enjoy applying Data Structures & Algorithms to build efficient and scalable systems. My journey in software development is driven by curiosity, continuous learning, and a passion for creating real-world solutions.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div><h3>Education</h3><p>B.Tech in Artificial Intelligence and Data Science</p></div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><h3>Location</h3><p>Chennai, Tamil Nadu, India</p></div>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-briefcase"></i>
+              <div><h3>Experience</h3><p>Multiple Internships & Projects</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span><span class="skill-tag">Python</span><span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">Flask</span><span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span><span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span><span class="skill-tag">Git</span><span class="skill-tag">REST API</span><span class="skill-tag">N8N</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-laptop-code"></i> Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span><span class="skill-tag">Android Studio</span><span class="skill-tag">Heroku</span><span class="skill-tag">IntelliJ IDEA</span><span class="skill-tag">Eclipse</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+  <h3><i class="fas fa-cloud"></i> DevOps & Cloud</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Docker</span>
+    <span class="skill-tag">CI/CD</span>
+    <span class="skill-tag">GitHub Actions</span>
+    <span class="skill-tag">Firebase</span>
+    <span class="skill-tag">Cloud Deployment</span>
+  </div>
+</div>
+<div class="skill-category fade-in">
+  <h3><i class="fas fa-brain"></i> AI / Machine Learning</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Machine Learning</span>
+    <span class="skill-tag">Computer Vision</span>
+    <span class="skill-tag">OpenCV</span>
+    <span class="skill-tag">Data Analysis</span>
+  </div>
+</div>
+<div class="skill-category fade-in">
+  <h3><i class="fas fa-robot"></i> Automation & Scraping</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Web Scraping</span>
+    <span class="skill-tag">Selenium</span>
+    <span class="skill-tag">BeautifulSoup</span>
+    <span class="skill-tag">N8N</span>
+    <span class="skill-tag">Python Automation</span>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=500&fit=crop" alt="Pothole Detection">
+            <div class="project-overlay">
+              <a href="https://github.com/Joshwa37/pothole" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Pothole Detection System</h3>
+              <a href="https://github.com/Joshwa37/pothole" target="_blank" class="project-github-btn">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+            <p>Developed an AI-based pothole detection system using computer vision techniques to identify road damages in real-time. 
+Utilized image processing and machine learning models to improve detection accuracy and assist in smart city infrastructure monitoring.</p>
+            <div class="project-tech">
+              <span>Python</span>
+  <span>OpenCV</span>
+  <span>Machine Learning</span>
+  <span>Computer Vision</span>
+            </div>
+          </div>
+        </div>
+
+       <div class="project-card fade-in">
+  <div class="project-image">
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop" alt="Paste Sharing App">
+    <div class="project-overlay">
+      <a href="https://github.com/Joshwa37/QuickPaste" target="_blank" class="project-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="project-header">
+      <h3>QuickPaste – Text Sharing Platform</h3>
+      <a href="https://github.com/Joshwa37/QuickPaste" target="_blank" class="project-github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <p>
+      Built a JustPasteIt-style web application that allows users to quickly share text snippets via unique links. 
+      Implemented backend storage, instant paste creation, and retrieval with a clean and responsive UI.
+    </p>
+
+    <div class="project-tech">
+      <span>Node.js</span>
+      <span>Express.js</span>
+      <span>MongoDB</span>
+      <span>REST API</span>
+    </div>
+  </div>
+</div>
+
+        <div class="project-card fade-in">
+  <div class="project-image">
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop" alt="Artificial Intelligence Neural Network">    <div class="project-overlay">
+      <a href="https://github.com/Joshwa37/ImageClassification" target="_blank" class="project-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="project-header">
+      <h3>Image Classification System</h3>
+      <a href="https://github.com/Joshwa37/ImageClassification" target="_blank" class="project-github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <p>
+      Developed a machine learning-based image classification system capable of identifying and categorizing images into multiple classes. 
+      Implemented data preprocessing, model training, and prediction pipeline using computer vision techniques.
+    </p>
+
+    <div class="project-tech">
+      <span>Python</span>
+      <span>Machine Learning</span>
+      <span>OpenCV</span>
+      <span>TensorFlow</span>
+      <span>Deep Learning</span>
+<span>Data Preprocessing</span>
+    </div>
+  </div>
+</div>
+
+        <div class="project-card fade-in">
+  <div class="project-image">
+    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=500&fit=crop" alt="News Extractor System">
+    <div class="project-overlay">
+      <a href="https://github.com/Joshwa37/NewsExtractor" target="_blank" class="project-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="project-header">
+      <h3>NewsExtractor System</h3>
+      <a href="https://github.com/Joshwa37/NewsExtractor" target="_blank" class="project-github-btn">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <p>
+      Developed an automated news extraction system that scrapes real-time articles from multiple sources, processes the data, and presents structured insights. 
+      Implemented web scraping, data parsing, and backend logic for efficient content aggregation.
+    </p>
+
+    <div class="project-tech">
+      <span>Python</span>
+      <span>BeautifulSoup</span>
+      <span>Web Scraping</span>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Professional Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item fade-in">
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <div class="timeline-date">Jun 2024 – Jul 2024</div>
+    
+    <h3>Machine Learning Intern</h3>
+    <h4>Hyundai</h4>
+    
+    <p>
+      Worked on machine learning models for real-world problem solving, including data preprocessing, model training, and evaluation. 
+      Applied computer vision and data analysis techniques to build intelligent systems and improve prediction accuracy.
+    </p>
+    
+    <a href="https://drive.google.com/file/d/1SLz4zEWY9yOy9IJmY5xzpfq8VIwb4J35/view?usp=drive_link" target="_blank" class="cert-link-btn">
+      <i class="fas fa-certificate"></i> View Certificate
+    </a>
+  </div>
+</div>
+
+        <div class="timeline-item fade-in">
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <div class="timeline-date">Oct 2023 – Nov 2023</div>
+    
+    <h3>Full Stack Web Developer Intern</h3>
+    <h4>FlashInfo Lab</h4>
+    
+    <p>
+      Developed responsive web applications with frontend and backend integration. 
+      Worked on REST APIs, handled database operations, and implemented full-stack workflows to deliver efficient and user-friendly solutions.
+    </p>
+    
+    <a href="https://drive.google.com/file/d/14LjQpNYTV-nhgVAuZpSsW-Wv0AU5zd9g/view?usp=drive_link" target="_blank" class="cert-link-btn">
+      <i class="fas fa-certificate"></i> View Certificate
+    </a>
+  </div>
+</div>
+
+
+      </div>
+
+      <div class="certifications fade-in">
+        <h3>Certifications</h3>
+        <div class="cert-grid">
+
+          <div class="cert-item">
+            <i class="fas fa-certificate"></i>
+            <div class="cert-info">
+              <h4>Python Foundation Certification</h4>
+              <p>Infosys Springboard – 2025</p>
+              <a href="https://drive.google.com/file/d/1D4EEPz4zfyah7GmwY1cA6Z2_aDoTTIt0/view?usp=drive_link" target="_blank" class="cert-view-btn">
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <i class="fas fa-certificate"></i>
+            <div class="cert-info">
+              <h4>Data Science Certification</h4>
+              <p>Infosys Springboard – 2026</p>
+              <a href="https://drive.google.com/file/d/1I-pI3-CGFd3nGrccdzu4ELk5HmxDDuvs/view?usp=drive_link" target="_blank" class="cert-view-btn">
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <i class="fas fa-certificate"></i>
+            <div class="cert-info">
+              <h4>Data Science</h4>
+              <p>nasscom – 2023</p>
+              <a href="https://drive.google.com/file/d/1dXm3TsCbaUcKdETwhj1VDuvLeupTFbwg/view?usp=drive_link" target="_blank" class="cert-view-btn">
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-item">
+  <i class="fas fa-certificate"></i>
+  <div class="cert-info">
+    <h4>Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</h4>
+    <p>Oracle – 2024</p>
+    <a href="https://drive.google.com/file/d/1gzYCY_9K6wwDgwPOpCPbXHf0i8i7kSVs/view?usp=drive_link" target="_blank" class="cert-view-btn">
+      <i class="fas fa-external-link-alt"></i> View Certificate
+    </a>
+  </div>
+</div>
+
+          <div class="cert-item">
+  <i class="fas fa-award"></i>
+  <div class="cert-info">
+    <h4>Research Paper Presentation – ICoIC 2024</h4>
+    <p>Panimalar Engineering College – 2024</p>
+    <a href="https://drive.google.com/file/d/10IsNcarLqdPFXVzLPP0lcbReQVhyO3LO/view?usp=drive_link" target="_blank" class="cert-view-btn">
+      <i class="fas fa-external-link-alt"></i> View Certificate
+    </a>
+  </div>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT — Pure Frontend ==================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Let's Connect</h2>
+
+      <!-- Availability banner -->
+      <div class="availability-banner fade-in">
+        <span class="avail-dot"></span>
+        <span>Open to Internships &amp; Entry-Level Opportunities — <strong>Available</strong></span>
+      </div>
+
+      <div class="contact-content">
+
+        <!-- Left: contact details + links -->
+        <div class="contact-info fade-in">
+          <h3>Get In Touch</h3>
+<p>
+I'm actively seeking opportunities in Machine Learning and AI-driven development, with strong expertise in backend systems, DevOps, and full stack engineering. 
+Feel free to reach out — I typically respond within 24 hours.
+</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:arputhajoshwa@gmail.com">arputhajoshwa@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919344252509">+91 93442 52509</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><h4>Location</h4><p>Chennai, Tamil Nadu, India</p></div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Joshwa37" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/arputhajoshwa" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/arputhajoshwa/" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: quick-contact cards (pure HTML/JS) -->
+        <div class="contact-cards fade-in">
+
+          <div class="contact-card" onclick="copyToClipboard('arputhajoshwa@gmail.com', this)">
+            <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+            <div class="cc-body">
+              <h4>Send an Email</h4>
+              <p>arputhajoshwa@gmail.com</p>
+              <span class="cc-action">Click to copy address</span>
+            </div>
+            <i class="fas fa-copy cc-copy-icon"></i>
+          </div>
+
+          <a class="contact-card" href="https://linkedin.com/in/arputhajoshwa" target="_blank">
+            <div class="cc-icon cc-linkedin"><i class="fab fa-linkedin"></i></div>
+            <div class="cc-body">
+              <h4>Connect on LinkedIn</h4>
+              <p>linkedin.com/in/arputhajoshwa</p>
+              <span class="cc-action">Opens in new tab ↗</span>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://github.com/Joshwa37" target="_blank">
+            <div class="cc-icon cc-github"><i class="fab fa-github"></i></div>
+            <div class="cc-body">
+              <h4>View GitHub Profile</h4>
+              <p>github.com/Joshwa37</p>
+              <span class="cc-action">See all repositories ↗</span>
+            </div>
+          </a>
+
+          <div class="contact-card" id="resumeCard" onclick="triggerResumeDownload()">
+            <div class="cc-icon cc-resume"><i class="fas fa-file-pdf"></i></div>
+            <div class="cc-body">
+              <h4>Download Resume</h4>
+              <p>Latest CV — PDF format</p>
+              <span class="cc-action">Click to download</span>
+            </div>
+            <i class="fas fa-download cc-copy-icon"></i>
+          </div>
+
+        </div>
+      </div><!-- /.contact-content -->
+
+      <!-- Colophon / availability summary -->
+      <div class="contact-footer fade-in">
+        <div class="cf-item"><i class="fas fa-briefcase"></i><span>Open to <strong>Full-time &amp; Internship</strong> roles</span></div>
+        <div class="cf-item"><i class="fas fa-map-marker-alt"></i><span><strong>On-site</strong> (Chennai) · <strong>Remote</strong> · <strong>Hybrid</strong></span></div>
+        <div class="cf-item"><i class="fas fa-clock"></i><span>Available</span></div>
+        <div class="cf-item"><i class="fas fa-globe"></i><span>Open to <strong>relocation</strong> </span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Arputha Joshwa. Designed with passion.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
