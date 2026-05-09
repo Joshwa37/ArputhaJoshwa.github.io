@@ -235,7 +235,7 @@ function triggerResumeDownload() {
 
 downloadResumeBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  window.open('https://drive.google.com/file/d/1kUGoy8AJ81ntz8_DQJSnt9tWvjXouz5Y/view?usp=drive_link', '_blank');
+  window.open('https://drive.google.com/file/d/1G08Yo5DhUbdRV1zDZ8bP6CJgJB1ne7hC/view?usp=sharing', '_blank');
 });
 
 
